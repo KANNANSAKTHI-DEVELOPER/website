@@ -1,0 +1,392 @@
+.form
+{
+  display: flex;
+  justify-content: space-between;
+}
+.search
+{
+  text-align: center;
+  font-size: large;
+  font-family: fantasy;
+  padding-top: 2%;
+} 
+.search-form
+{
+  display: flex;
+  align-items: center;
+}
+.search-bar
+{
+  padding: 10px;
+  margin-left: 5px;
+  border: 1px solid #9c9c9c;
+  border-radius: 15px;
+}
+.rig1
+{
+  text-align: center;
+  padding-top: 1%;
+}
+.rig2
+{
+  text-align: right;
+  padding-top: 1%;
+}
+.img1
+{
+  text-align: left;
+  margin: 3%;
+}
+ul li
+{
+    display:inline;
+    list-style-type:none;
+    font-size: 30px;
+   
+}                                                         
+li a
+{
+  text-decoration: none;
+
+}
+.a,.b,.c,.d,.e
+{
+  padding-right: 20px;
+}
+.login{
+    border-radius: 8px;
+    background-color: #f1c607;
+    font-size: 20px;
+    padding: 6px 10px;
+    color: #000;
+}
+.register{
+    border: 2px solid #f1c607;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 6px 10px;
+    color: #000;
+}
+.login:hover{
+    border: 2px solid #f1c607;
+    background-color: rgba(145, 68, 0, 0);  
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 6px 10px;
+    color: #000;
+}
+.register:hover{
+    border-radius: 8px;
+    background-color: #f1c607;
+    font-size: 20px;
+    padding: 6px 10px;
+    color: #000;
+}
+.img1
+{
+  text-align: left;
+}
+.box
+{
+  position:relative;
+  width: 100%;
+  height: 30%;
+  background-color: aliceblue;
+  animation-name:box-animation;
+}
+.top
+{
+  font-size: 14px;
+  text-align: start;
+  font-family: sans-serif;
+}
+.tops
+{
+  background-color: rgb(165, 163, 163);
+  display: flex;
+  justify-content: center;
+}
+.top1 
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+}
+.top1:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.top2
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top2:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.top3
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 5px;
+  margin: 10px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top3:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.top3
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+ }
+.top3:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+}
+.top4
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top4:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.tope
+{
+  font-size: 14px;
+  text-align: start;
+  font-family: sans-serif;
+}
+.topes
+{
+  background-color: rgb(165, 163, 163);
+  display: flex;
+  justify-content: center;
+}  
+.top1 
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top1:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.top2 
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top2:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.top3 
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top3:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.top4 
+{
+  justify-self: left;
+  background-image: url(./images\ \(5\).jpg);
+  padding: 10px;
+  margin: 20px; 
+  text-align: center;
+  transition: all 0.3s;
+  transition:border 0.3s;  
+  transform:scale(1);
+}
+.top4:hover
+{
+padding-bottom: 10px;
+border: 1px solid white;
+transform: scale(1);
+}
+.button
+{
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgb(128, 109, 0);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgb(128, 94, 0);
+  color: white;
+  animation-iteration-count: infinite;
+}
+.card
+{
+  background-image: url(./beautiful-city-view.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+.card1
+{
+  justify-content: center;
+  padding-top: 3%;
+  margin: 10%;
+}
+.card2
+{
+  justify-content: center;
+  padding: 3%;
+  margin: 10%;
+}
+
+.mainpage
+{
+ justify-content: space-around;
+ text-align: center;
+}
+.points
+{
+  text-align: center;
+}
+.point
+{
+  display: flex;
+}
+.p1
+{
+   text-align: left;
+   margin: 3%;
+}
+.po1
+{
+  font-family: serif;
+}
+.p2
+{
+   text-align: left;
+   margin: 3%;
+}
+.p3
+{
+   text-align: left;
+   margin: 3%;
+}
+.p4
+{
+   text-align: left;
+   margin: 3%;
+}
+.page
+{
+ text-align: right;
+ padding-top: 1%;
+}
+.imghigh
+{
+ width: 100%;
+ height: auto;
+}
+.space
+{
+  background-image: url(./black-solid-background-2920-x-1642-17wdacb1vs7blvtm.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 420px; 
+  display: flex;
+  font-family: sans-serif;
+}
+.sp1
+{
+  text-align: start;
+  padding-top: 1%;
+  margin: 6%;
+  color: white;
+}  
+.sp2
+{
+  text-align: center;
+  padding-top: 1%;
+  margin: 6%;
+  color: white;
+}
+.sp3
+{
+  text-align: center;
+  padding-top: 1%;
+  margin: 6%;
+  color: white;
+}
+.cd1{
+ width: 400px;
+ height: auto;
+}
+
+
